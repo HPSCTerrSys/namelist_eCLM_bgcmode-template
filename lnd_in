@@ -26,6 +26,9 @@
  nsegspc = 35
  paramfile = '__geo_dir_clm__/paramdata/clm5_params.c171117.nc'
  run_zero_weight_urban = .false.
+ snow_thermal_cond_method = 'Jordan1991'
+ snow_thermal_cond_glc_method = 'Jordan1991'
+ snow_thermal_cond_lake_method = 'Jordan1991'
  soil_layerstruct = '20SL_8.5m'
  spinup_state = 0
  suplnitro = 'NONE'
