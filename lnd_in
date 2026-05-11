@@ -14,7 +14,7 @@
   h2osno_max = 10000.0
   hist_empty_htapes = .true.
   hist_fincl1 = __clmoutvar__
-  hist_mfilt =  1 !365
+  hist_mfilt = 1 !365
   hist_nhtfrq = -1
   int_snow_max = 2000
   irrigate = .true.
