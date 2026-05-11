@@ -41,7 +41,7 @@
   use_fun = .true.
   use_grainproduct = .true.
   use_hydrstress = .true.
-!SPo use_init_interp = .true.
+  !SPo use_init_interp = .true.
   use_init_interp = .false.
   use_lai_streams = .false.
   use_lch4 = .true.
@@ -53,7 +53,7 @@
 /
 &ndepdyn_nml
   ndep_taxmode = 'cycle'
-!SPo ndep_taxmode = 'extend'
+  !SPo ndep_taxmode = 'extend'
   ndep_varlist = 'NDEP_month'
   ndepmapalgo = 'bilinear'
   stream_fldfilename_ndep = '__geo_dir_clm__/ndepdata/fndep_clm_hist_b.e21.BWHIST.f09_g17.CMIP6-historical-WACCM.ensmean_1849-2015_monthly_0.9x1.25_c180926.nc'
@@ -206,7 +206,7 @@
   glacier_region_ice_runoff_behavior = 'melted', 'melted', 'remains_ice', 'remains_ice'
   glacier_region_melt_behavior = 'remains_in_place', 'replaced_by_ice', 'replaced_by_ice', 'replaced_by_ice'
   glacier_region_rain_to_snow_behavior = 'converted_to_snow', 'converted_to_snow', 'converted_to_snow',
-                                        'converted_to_snow'
+                                         'converted_to_snow'
 /
 &crop
   baset_latvary_intercept = 12.0
